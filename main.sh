@@ -22,6 +22,7 @@ date +"%D %T"
 while true
 do
   tput setaf 214
+  echo "Welcome to nodecal, a simple calendar"
   read -p "read, write, or exit: " rw
 
   if [ "$rw" == "write" ];
