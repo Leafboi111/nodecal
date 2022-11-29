@@ -13,12 +13,11 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-clear
-
 tput setaf 45
 
 while true
 do
+  clear
   tput setaf 7
   echo "Welcome to nodecal, a simple calendar"; echo
   tput setaf 141
