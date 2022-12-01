@@ -37,7 +37,7 @@ do
 
   elif [ "$rw" == "read" ];
   then
-    sort -V data/calendar.txt
+    echo "Calendar Events:" ;sort -V data/calendar.txt; echo
   else
     break
   fi
