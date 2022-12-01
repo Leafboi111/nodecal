@@ -37,7 +37,7 @@ do
 
   elif [ "$rw" == "read" ];
   then
-    echo "Calendar Events:"; tput setaf 80; sort -V data/calendar.txt; echo
+    tput setaf 190; echo "Calendar Events:"; tput setaf 80; sort -V data/calendar.txt; echo
   else
     break
   fi
