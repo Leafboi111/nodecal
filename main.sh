@@ -24,7 +24,7 @@ do
   date +"%D %T"
   tput setaf 214
   read -p "read, write, or exit: " rw
-
+  clear
   if [ "$rw" == "write" ];
   then
     tput setaf 207
@@ -41,6 +41,5 @@ do
   else
     break
   fi
-  clear
 
 done
